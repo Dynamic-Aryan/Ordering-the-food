@@ -1,0 +1,19 @@
+.rating{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.star-rating {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .star-rating li {
+    display: inline; /* Display stars horizontally */
+    margin-right: 5px; /* Adjust the space between stars */
+  }
+  
+  .star-rating img {
+    width: 20px; /* Set the width of the star image */
+    height: 20px; /* Set the height of the star image */
+  }
